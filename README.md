@@ -27,7 +27,7 @@ Versioning is essential for data recovery in case of accidental deletion or corr
 ## 3. Add Replication Rule in Source Bucket
 
 Replication ensures that your data is automatically copied from the primary bucket to the secondary bucket in a different region, providing data redundancy and disaster recovery capabilities.
-  ![img1.jpeg](img1.jpeg)
+  ![replication-options.jpeg](replication-options.jpeg)
 
 1. In the Amazon S3 console, navigate to the `my-primary-bucket` bucket properties.
 2. Choose the "Replication" tab, and then click "Create replication rule."
@@ -51,7 +51,7 @@ To manage storage costs when delete or vacuum operations are performed on Iceber
    - Specify the number of non-current versions you wish to delete and the number of days after which the versions should be deleted.
    - Check the option to delete expired delete markers and incomplete multipart uploads.
 4. Review the lifecycle rule configuration and click "Create rule."
-  ![img2.jpeg](img2.jpeg)
+  ![lifecyle-rules.jpeg](lifecycle-rules.jpeg)
 
 ## 6. Repeat Step 5 for Target Bucket
 
